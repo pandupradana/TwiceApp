@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/neonMagenta">
+
+    </android.support.v7.widget.SearchView>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_bar"
+        android:background="@color/neonMagenta">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingEnd="30dp"
+                android:paddingBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nayeon"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Nayeon"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/nayeon"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/nayeoncircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/jeongyeon"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Jeongyeon"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/jeongyeon"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/jeongyeoncircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/momo"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Momo"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/momo"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/momocircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Sana"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Sana"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/Sana"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/sanacircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Jihyo"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Jihyo"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/Jihyo"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/jihyocircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Mina"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Mina"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/Mina"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/minacircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Dahyun"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Dahyun"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/Dahyun"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/dahyuncircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Chaeyoung"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Chaeyoung"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/Chaeyoung"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/chaeyoungcircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Tzuyu"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Tzuyu"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/Tzuyu"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/tzuyucircle"
+                        android:clickable="true">
+
+                    </ImageButton>
+                </RelativeLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative1"
+        android:layout_marginTop="0dp"
+        android:background="@color/apricot">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relative2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/frame1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1">
+
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="190dp"
+                            android:background="@color/apricot"
+                            android:paddingBottom="20dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/twicebackgrothriuh">
+                        </ImageButton>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/rounded"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:paddingBottom="5dp"
+                            android:text="Twice Lyrics"
+                            android:textAlignment="center"
+                            android:textColor="#ff000000"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="190dp"
+                            android:background="@color/apricot"
+                            android:paddingBottom="20dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/twicehappy">
+                        </ImageButton>
+
+                        <TextView
+                            android:paddingBottom="5dp"
+                            android:background="@drawable/rounded"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:text="Twice Wallpaper"
+                            android:textAlignment="center"
+                            android:textColor="#ff000000"
+                            android:textSize="12sp">
+
+                        </TextView>
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linear1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/frame2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1">
+
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="190dp"
+                            android:background="@color/apricot"
+                            android:paddingBottom="20dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/twicephotshoot">
+                        </ImageButton>
+
+                        <TextView
+                            android:paddingBottom="5dp"
+                            android:background="@drawable/rounded"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:text="Rate Us"
+                            android:textAlignment="center"
+                            android:textColor="#ff000000"
+                            android:textSize="12sp">
+
+                        </TextView>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="190dp"
+                            android:background="@color/apricot"
+                            android:paddingBottom="20dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/bdz">
+                        </ImageButton>
+
+                        <TextView
+                            android:paddingBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/rounded"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:text="About"
+                            android:textAlignment="center"
+                            android:textColor="#ff000000"
+                            android:textSize="12sp">
+
+                        </TextView>
+                    </FrameLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>
